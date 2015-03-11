@@ -1,0 +1,17 @@
+{
+  "name": "twitter-littlebits-blinky",
+  "version": "1.0.0",
+  "description": "A simple demo with LittleBits in node.js using Johnny-Five, which blinks LED when somebody tweeted with certain queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomomi Imura",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.1",
+    "johnny-five": "^0.8.44",
+    "pubnub": "^3.7.8"
+  }
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twitter Blinky Demo</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header class="navbar">
+		<h1><i class="icon-twitter"></i> Johnny-Five LittleBits Blinky Demo</h1>
+		<p>This is a fun experiment with LittleBits and PubNub written in node.js using Johnny-Five. The realtime data comes from the <a href="https://twitter.com/pubnub" target="_blank">@PubNub</a> Data Stream Network and PubNub's out-of-the-box access to the live Twitter stream.
+		</p>
+	</header>
+
+	<section class="main" role="main">
+		<h2>Twitter search terms:</h2>
+
+		<form method="post" action="/">
+			<div class="queries">
+				<input type="text" name="q[0]" placeholder="@username, #hashtag, or any search term(s)" autofocus> <button class="add icon-plus"></button>
+			</div>
+			<input type="submit" class="search" value="search">
+		</form>
+
+		<ul class="list">
+		</ul>
+	</section>
+
+	<footer>
+
+	</footer>
+
+	<script>
+	(function(){
+		var add = document.querySelector('.add');
+		var submit = document.querySelector('.search');
+
+		var inputParent = document.querySelector('.queries');
+
+		var queries = [];
+		var i = 1;
+
+		add.addEventListener('click', function(e) {
+			e.preventDefault();
+			var child = document.createElement('input');
+			child.type = 'text';
+			child.name = 'q[' + i + ']';
+			inputParent.appendChild(child);
+			child.focus();
+			i++;
+		}, false);
+
+		submit.addEventListener('submit', function(e) {
+			var inputs = document.querySelectorAll('[type=text]');
+
+			[].forEach.call(inputs, function(input) {
+				if(input.value) {
+					input.value = '';
+				}
+			});
+		}, false);
+	})();
+	</script>
+</body>
+</html>

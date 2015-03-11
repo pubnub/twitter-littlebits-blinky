@@ -1,0 +1,180 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+    height: 100%;
+}
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif; 
+    margin: 1.5em;
+    background: #272727;
+    color: #ecf0f0;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1;
+}
+header {
+    margin: 0 100px 4em 0;
+}
+h1, h2, h3 {
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+}
+h1 {
+    font-size: 3.375em;
+    text-transform: lowercase;
+}
+h2 {
+    font-size: 1.4em;
+    line-height: 2;
+    text-transform: uppercase;
+}
+a, .fa-twitter {
+    color: #55acee;
+}
+img {
+    border: 0;
+}
+p, footer {
+    margin: 1em 0 .5em;
+    color: silver;
+}
+footer {
+    font-size: .8em;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: right;
+}
+footer .logo {
+    display: inline-block;
+}
+input, button {
+    display: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 1.2em;
+    padding: .7em 1em;
+    margin-bottom: 2em;
+    display: inline-block;
+    border: 0;
+}
+input[type=text] {
+    width: calc(100% - 100px);
+}
+button, input[type=submit] {
+    background-color: #55acee;
+    color: #fff;
+}
+button {
+    border-radius: 50%;
+    margin-left: 16px;
+    padding: 1em;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+li {
+    width: 100%;
+    margin: 0;
+    padding: 0 1em;
+    text-align: center;
+    line-height: 86px;
+    text-transform: uppercase;
+    background: #FFC107;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+li:nth-child(7n+1) {
+    background: #E91E63;
+}
+li:nth-child(7n+2) {
+    background: #3F51B5;
+}
+li:nth-child(7n+3) {
+    background: #009688;
+}
+li:nth-child(7n+4) {
+    background: #FFC107;
+}
+li:nth-child(7n+5) {
+    background: #FF5722;
+}
+li:nth-child(7n+6) {
+    background: #8BC34A;
+}
+li:nth-child(7n) {
+    background: #AB47BC;
+}
+footer {
+    min-height: 64px;
+    line-height: 64px;
+    margin-top: 2em;
+    text-align: center;
+}
+footer span {
+    font-size: 1.3em;
+    position: relative;
+    top: 4px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-location:before {
+    content: "\e947";
+}
+.icon-bubble:before {
+    content: "\e96b";
+}
+.icon-twitter:before {
+    content: "\ea91";
+    color: #55acee;
+}
+.icon-plus:before {
+    content: "\ea0a";
+    color: #fff;
+}
+.icon-github:before {
+    content: "\eab4";
+}
+
+@media only screen and (max-width: 1140px) {
+    h1 {
+        font-size: 3em;
+    }
+}   
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 2.4em;
+    }
+}   
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 2em;
+    }
+}
