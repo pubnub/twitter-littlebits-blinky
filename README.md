@@ -21,6 +21,10 @@ Anna Gerber gathered all information and sample code to get started with [progra
 
 Connect Arduino to your machine, and turn the power on.
 
+## PubNub Twitter Firehose
+
+This demo uses [PubNub Twitter data stream][firehose].
+
 ## Running this Demo
 
 You need to run this demo on your own machine. Make sure your machine has [Node.js][node] installed.
@@ -33,12 +37,14 @@ You need to run this demo on your own machine. Make sure your machine has [Node.
 6. Watch the action
 
 
+## Tutorial
 
+TDB
  
-
 
 [twitter]: http://twitter.com/girlie_mac
 [j5]: https://github.com/rwaldron/johnny-five
 [anna]: https://github.com/AnnaGerber/little-bits-js
 [littlebits]: http://littlebits.cc/
 [node]: https://nodejs.org/
+[firehose]: http://www.pubnub.com/developers/data-streams/twitter-stream
