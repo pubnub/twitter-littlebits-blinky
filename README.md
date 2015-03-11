@@ -2,11 +2,11 @@
 
 By Tomomi Imura ([@girlie_mac][twitter])
 
-A simple demo with LittleBits in node.js using Johnny-Five, which blinks LED when somebody tweeted with certain queries.
+A simple demo with LittleBits in node.js using Johnny-Five, which notifies you when somebody tweeted with certain queries by blinking LED.
 
-### What is LittleBits
+### What is LittleBits?
 
-[LittleBits][littlebits] is a open source library of electric modules that you can snap together with magnets. There are over 60 Lego-like modules and more than 150,000 possible circuit combinations to play with. LittleBits works with no programming, however, you can snap modules with Arduino and easily incorporate programming into the circuits.
+[LittleBits][littlebits] is a open source library of electric modules that you can snap together with magnets. There are over 60 Lego-like modules and more than 150,000 possible circuit combinations to play with.
 
 ### Communicate LittleBits with Arduino using Node.js
 
@@ -26,14 +26,8 @@ Connect Arduino to your machine, and turn the power on.
 You need to run this demo on your own machine. Make sure your machine has [Node.js][node] installed.
 
 1. Fork or download this repo to your local machine.
-2. Install dependencies
-
-`$ npm install`
-
-3. Run code
-
-`$ node index.js`
-
+2. Install dependencies: `$ npm install`
+3. Run code: `$ node index.js`
 4. Open the web client at http://localhost:3000
 5. Type some queries and hit Submit
 6. Watch the action

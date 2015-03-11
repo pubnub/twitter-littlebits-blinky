@@ -1,7 +1,7 @@
 {
   "name": "twitter-littlebits-blinky",
   "version": "1.0.0",
-  "description": "A simple demo with LittleBits in node.js using Johnny-Five, which blinks LED when somebody tweeted with certain queries.",
+  "description": "A simple demo with LittleBits in node.js using Johnny-Five, which notifies you when somebody tweeted with certain queries by blinking LED.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
