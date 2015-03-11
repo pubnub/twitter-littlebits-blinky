@@ -14,6 +14,10 @@ I am using [Johnny-Five][j5], an Open Source, Firmata Protocol based, IoT and Ro
 
 Anna Gerber gathered all information and sample code to get started with [programming LittleBits with Jonny-Five][anna].
 
+### PubNub Twitter Firehose
+
+This demo uses [PubNub Twitter data stream][firehose].
+
 
 ## Assembling LittleBits
 
@@ -21,9 +25,6 @@ Anna Gerber gathered all information and sample code to get started with [progra
 
 Connect Arduino to your machine, and turn the power on.
 
-## PubNub Twitter Firehose
-
-This demo uses [PubNub Twitter data stream][firehose].
 
 ## Running this Demo
 
