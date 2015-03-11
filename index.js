@@ -38,7 +38,7 @@
 	board.on('ready', function() {
 		console.log('Board is ready!');
 		led = new five.Led(5);
-		pulse(led);
+		pulse();
 	});
 
 	// Getting data from PubNub Twitter stream
@@ -64,7 +64,7 @@
 			
 				if (queries.some(function(v) { return m.text.toLowerCase().indexOf(v) > 0; })) {
 					console.log(m.user.screen_name + ': ' + m.text);
-					pulse(led);
+					pulse();
 				}
 			}
 		});
