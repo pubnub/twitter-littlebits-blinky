@@ -40,7 +40,7 @@ You need to run this demo on your own machine. Make sure your machine has [Node.
 
 ## Tutorial
 
-TDB
+[Triggering littleBits LEDs with Node.js Using Johnny-Five](http://www.pubnub.com/blog/triggering-littlebits-leds-in-realtime-with-node-js-using-johnny-five/)
  
 
 [twitter]: http://twitter.com/girlie_mac
