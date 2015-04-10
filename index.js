@@ -62,7 +62,7 @@
 			callback: function(m) {
 				if(!m || !m.text) return; 
 			
-				if (queries.some(function(v) { return m.text.toLowerCase().indexOf(v) > 0; })) {
+				if (queries.some(function(v) { return m.text.toLowerCase().indexOf(v) >= 0; })) {
 					console.log(m.user.screen_name + ': ' + m.text);
 					pulse();
 				}
