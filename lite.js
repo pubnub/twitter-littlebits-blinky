@@ -40,7 +40,7 @@
 		callback: function(m) {
 			if(!m || !m.text) return; 
 		
-			if (queries.some(function(v) { return m.text.toLowerCase().indexOf(v) > 0; })) {
+			if (queries.some(function(v) { return m.text.toLowerCase().indexOf(v) >= 0; })) {
 				if(!led) {
 					console.log('LittleBits board is not ready yet.');
 					return;
