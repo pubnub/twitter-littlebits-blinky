@@ -42,6 +42,14 @@ You need to run this demo on your own machine. Make sure your machine has [Node.
 
 [Triggering littleBits LEDs with Node.js Using Johnny-Five](http://www.pubnub.com/blog/triggering-littlebits-leds-in-realtime-with-node-js-using-johnny-five/)
  
+ 
+### Related Tutorial
+
+PubNub ❤ Twitter Project
+
+[Tweet emotion: real-time Tweet analysis with PubNub Data Stream](https://blog.twitter.com/2014/tweet-emotion-real-time-tweet-analysis-with-pubnub-data-stream) on blog.twitter.com
+
+This explains how to use PubNub's Twitter Firehose!
 
 [twitter]: http://twitter.com/girlie_mac
 [j5]: https://github.com/rwaldron/johnny-five
